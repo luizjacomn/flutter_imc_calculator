@@ -148,7 +148,7 @@ class _HomeState extends State<Home> {
                     if (value.isEmpty) return 'Informe a altura';
                   },
                   decoration: InputDecoration(
-                    labelText: 'Altura (m)',
+                    labelText: 'Altura (cm)',
                     labelStyle: TextStyle(fontSize: _labelSize, color: _gray),
                   ),
                 ),
